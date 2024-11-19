@@ -5,6 +5,7 @@ int main(){
     int linhas, colunas;
     int **matriz;
     
+    
     scanf("%d %d", &linhas, &colunas);
     if (linhas <= 0 || colunas <= 0) {
         printf("[matriz vazia]\n");
