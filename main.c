@@ -11,10 +11,10 @@ int main(){
         return 0;
     }
 
-    matriz = (int **)malloc(linhas * sizeof(int *));
+    matriz = (int**) malloc(linhas * sizeof(int *));
     
     for (int i = 0; i < linhas; i++) {
-        matriz[i] = (int *)malloc(colunas * sizeof(int));
+        matriz[i] = (int*) malloc(colunas * sizeof(int));
     }
     
     for (int i = 0; i < linhas; i++) {
