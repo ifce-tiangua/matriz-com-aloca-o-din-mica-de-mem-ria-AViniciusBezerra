@@ -37,7 +37,6 @@ int main(){
         free(matriz[i]);
     }
     free(matriz);
-    matriz = NULL;
 
     return 0; 
 }
